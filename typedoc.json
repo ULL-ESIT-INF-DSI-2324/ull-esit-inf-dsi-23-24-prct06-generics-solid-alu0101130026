@@ -1,16 +1,4 @@
 {
-    "entryPoints": [
-      "./src/ejercicio-1/bibliographicelement.ts",
-      "./src/ejercicio-1/bibliographymanager.ts",
-      "./src/ejercicio-1/bookchapter.ts",
-      "./src/ejercicio-1/journalarticle.ts",
-      "./src/ejercicio-1/main.ts",
-      "./src/pe101-1.ts",
-      "./src/ejercicio-2/dish.ts",
-      "./src/ejercicio-2/main.ts",
-      "./src/ejercicio-2/menuinstance.ts",
-      "./src/ejercicio-2/menusolution.ts",
-      "./src/ejercicio-2/solver.ts"
-    ],
-    "out": "./docs"
-  }
+  "entryPoints": ["./src/pe101/main.ts"],
+  "out": "./docs"
+}

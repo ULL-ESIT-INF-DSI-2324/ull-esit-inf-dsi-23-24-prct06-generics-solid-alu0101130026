@@ -1,0 +1,24 @@
+{
+  "processes": {
+    "7e4cbf69-1724-4e61-bb2d-3ff4e05a9d91": {
+      "parent": "85728083-663c-452c-8323-853e561dccb7",
+      "children": []
+    },
+    "85728083-663c-452c-8323-853e561dccb7": {
+      "parent": null,
+      "children": ["7e4cbf69-1724-4e61-bb2d-3ff4e05a9d91"]
+    }
+  },
+  "files": {
+    "/home/usuario/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101130026/src/pe101/arithcollection.ts": [
+      "7e4cbf69-1724-4e61-bb2d-3ff4e05a9d91"
+    ],
+    "/home/usuario/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101130026/src/pe101/complex.ts": [
+      "7e4cbf69-1724-4e61-bb2d-3ff4e05a9d91"
+    ],
+    "/home/usuario/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101130026/src/pe101/rational.ts": [
+      "7e4cbf69-1724-4e61-bb2d-3ff4e05a9d91"
+    ]
+  },
+  "externalIds": {}
+}
