@@ -1,1 +1,36 @@
-{"processes":{"78e5ca08-a2f0-4398-b64f-47937f95945d":{"parent":"8b439db0-35a8-46f7-9693-7d34c2c6be22","children":[]},"8b439db0-35a8-46f7-9693-7d34c2c6be22":{"parent":null,"children":["78e5ca08-a2f0-4398-b64f-47937f95945d"]}},"files":{"/home/usuario/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101130026/src/pe101/arithcollection.ts":["78e5ca08-a2f0-4398-b64f-47937f95945d"],"/home/usuario/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101130026/src/pe101/complex.ts":["78e5ca08-a2f0-4398-b64f-47937f95945d"],"/home/usuario/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101130026/src/pe101/rational.ts":["78e5ca08-a2f0-4398-b64f-47937f95945d"]},"externalIds":{}}
+{
+  "processes": {
+    "020d5621-5840-47f5-b411-e0480a1db736": {
+      "parent": null,
+      "children": ["aa66b823-669d-4182-b238-37c576bd58bd"]
+    },
+    "aa66b823-669d-4182-b238-37c576bd58bd": {
+      "parent": "020d5621-5840-47f5-b411-e0480a1db736",
+      "children": []
+    }
+  },
+  "files": {
+    "/home/usuario/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101130026/src/ejercicio-1/boxmanager.ts": [
+      "aa66b823-669d-4182-b238-37c576bd58bd"
+    ],
+    "/home/usuario/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101130026/src/ejercicio-2/bill.ts": [
+      "aa66b823-669d-4182-b238-37c576bd58bd"
+    ],
+    "/home/usuario/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101130026/src/ejercicio-2/pdfbill.ts": [
+      "aa66b823-669d-4182-b238-37c576bd58bd"
+    ],
+    "/home/usuario/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101130026/src/ejercicio-2/htmlbill.ts": [
+      "aa66b823-669d-4182-b238-37c576bd58bd"
+    ],
+    "/home/usuario/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101130026/src/pe101/arithcollection.ts": [
+      "aa66b823-669d-4182-b238-37c576bd58bd"
+    ],
+    "/home/usuario/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101130026/src/pe101/complex.ts": [
+      "aa66b823-669d-4182-b238-37c576bd58bd"
+    ],
+    "/home/usuario/ull-esit-inf-dsi-23-24-prct06-generics-solid-alu0101130026/src/pe101/rational.ts": [
+      "aa66b823-669d-4182-b238-37c576bd58bd"
+    ]
+  },
+  "externalIds": {}
+}

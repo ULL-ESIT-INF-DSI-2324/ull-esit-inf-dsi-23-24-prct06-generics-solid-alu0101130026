@@ -19,4 +19,4 @@ console.log(
   rationalCollection
     .getArithmeticable(0)
     .add(rationalCollection.getArithmeticable(1)),
-); 
+);
