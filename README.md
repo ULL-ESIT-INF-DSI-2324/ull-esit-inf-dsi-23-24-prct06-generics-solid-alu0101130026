@@ -11,6 +11,10 @@
 
 ### Introducción y objetivos
 
+En la sexta práctica de la asignatura, se nos introduce a las interfaces genéricas y los principios SOLID. En ella se cambia un poco la metodología, puesto que ya no tenemos que desarrollar todos los ejercicios íntegramente. En los dos primeros sí, pero en el resto lo que tendremos es que detectar cuál es el principio que se viola y arreglarlo para que no sea así.
+
+En resumen, nuestro trabajo en esta práctica se basará en el uso de interfaces genéricas para su posterior implementación y el cumplimiento de los principos SOLID.
+
 ### Ejercicio 1 - La mudanza
 
 Para este primer ejercicio, se nos pide que desarrollemos un sistema de información para una mudanza, en el cual tendremos distintos enseres que se almacenan en cajas. Podremos añadir o quitar enseres en la caja, buscar si hay un enser en concreto o listar el contenido de una caja por consola.
@@ -32,3 +36,20 @@ Se cumple lo que se expone en el guión. Si quisiéramos añadir un nuevo format
 ### Ejercicio 3 - Gestor de ficheros
 
 El código que se nos da en el guión no cumple con el Single responsibility principle, porque la clase FileManager se encarga de lectura y escritura, por lo que tiene más de una "responsabilidad". Para que sí se cumpla este principio lo que se hará será dividir FileManager en dos clases: FileReader y FileWriter, cada una con una sola responsabilidad.
+
+### Ejercicio 4 - Impresoras y escáneres
+
+En este código que aparece en el guión, ahora el principio que se viola es el Interface segregation principle. En la interfaz PrintableScannable se utilizan dos métodos, el print y el scan, y un cliente no siempre va a utilizar las dos operaciones. Por lo tanto, lo que se ha hecho es separar esa interfaz en dos distintas que son Printable y Scannable.
+
+### Ejercicio 5 - Servicio de mensajería
+
+En el último código proporcionado para esta práctica, el principio que se viola es el de Dependency inversion principle, que expone que las clases deberían depender de la abstracción y no de la particularización. En nuestro caso concreto, Notifier depende de EmailService y ShortMessageService. La manera de hacer que cumpla con este principio sería crear una interfaz y que estas dos clases la implementen, así Notifier solo dependería de la interfaz.
+
+### Conclusiones
+
+En esta práctica hemos tocado varios aspectos relevantes con respecto a la programación en Typescript y la programación en general. Por un lado, las interfaces genéricas nos ayudan con aspectos como la reutilización de código, la abstracción... los principios SOLID trabajan también pautas del estilo, sirven para también reutilizar código, mantenibilidad... En conclusión, trabajar con los principios nos facilitará la programación en lo que queda de asignatura y en el resto de nuestra vida como informáticos.
+
+### Bibliografía
+
+- https://ull-esit-inf-dsi-2324.github.io/typescript-theory/typescript-solid.html
+- https://profile.es/blog/principios-solid-desarrollo-software-calidad/
